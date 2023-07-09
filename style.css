@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    padding: 15px 0px;
+    background-color: aliceblue;
+}
+.form-head{
+    padding-bottom: 20px;
+}
+.header-content {
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.emptext {
+    color: rgb(255, 47, 47);
+    
+}
+
+.form-content {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #ca1aa7;
+    padding: 20px;
+}
+
+.form {
+    width: 45%;
+    padding: 30px 70px;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 6px #307191;
+    border: 1px solid rgb(219, 223, 210);
+    border-radius: 8px;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid rgb(192, 213, 195);
+}
+
+.label {
+    min-width: 140px;
+}
+
+label {
+    padding: 8px 8px 8px 0;
+    display: inline-block;
+}
+.text{
+    font-size: 16px;
+    color: #070707;
+    opacity: 1;
+    font-family:Roboto;
+}
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c1cdc3;
+    border-radius: 4px;
+
+}
+
+.profile_radio_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_radio_content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+
+}
+textarea{
+    width: 100%;
+    padding:5px;
+    border: 1px solid #a78484;
+    border-radius: 4px;
+}
+.row-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    height: 30px;
+}
+.space {
+    margin: 0 5px; 
+}

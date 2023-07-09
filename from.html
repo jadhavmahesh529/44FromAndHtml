@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-content">
+        <div class="logo">
+            <img src="https://www.alamy.com/team-user-manager-squad-blue-business-logo-and-business-card-template-front-and-back-design-image246689056.html" style="width: 10%;">
+            <div style="font-weight: 800; font-size: 20px;">
+                <span class="emptext">Employee</span><br>
+                <span>Payroll</span>
+
+            </div>
+        </div>
+        <div>
+            <h1>Add Employee Payroll UI/UX Design</h1>
+        </div>
+    </header>
+    <div class="form-content">
+        <form class="form" action="#" onsubmit="save();return false">
+            <div class="form-head"><h3>Employee Payroll Form</h3></div>
+            <div class="row-content">
+                <label class="label text" for="name">Name</label>
+                <input class="input" type="text" name="name" id="name" placeholder="Your Name">
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Profile Image</label>
+                <div class="profile_radio_content">
+                    <label>
+                        <input type="radio" id="profile1" name="profile" value="img/1.jpg" required>
+                        <img class="profile" src="G:\images\img.jpg" id="image1">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile2" name="profile" value="img/1.jpg" required>
+                        <img class="profile" src="G:\images\img.jpg" id="image2">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile3" name="profile" value="img/1.jpg" required>
+                        <img class="profile" src="G:\images\img.jpg" id="image3">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile4" name="profile" value="img/1.jpg" required>
+                        <img class="profile" src="G:\images\img.jpg" id="image4">
+                    </label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Gender</label>
+                <div class="profile_radio_content">
+                    <label>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        Male
+
+                    </label>
+                    <label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        Female
+                    </label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Department</label>
+                <div class="profile_radio_content">
+                    <label>
+                        <input type="checkbox" id="HR" name="department" value="HR">
+                        HR
+
+                    </label>
+                    <label>
+                        <input type="checkbox" id="Other" name="department" value="Other">
+                        Other
+                    </label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Salary</label>
+                <input class="input" type="range" name="salary" id="salary" min="30000" max="50000" step="100"
+                    value="40000">
+                <output class="salary-output" for="salary">40000</output>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Date</label>
+                <select name="Day" id="day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <span class="space"> </span>
+                <select name="Month" id="month">
+                    <option value="Jan">January</option>
+                    <option value="Feb">Febuary</option>
+                    <option value="Mar">March</option>
+                    <option value="Apr">Aril</option>
+                    <option value="May">May</option>
+                    <option value=Jun">June</option>
+                    <option value="Jul">July</option>
+                    <option value="Aug">August</option>
+                    <option value="Sept">September</option>
+                    <option value="Oct">October</option>
+                    <option value="Nov">November</option>
+                    <option value="Dec">December</option>
+                </select>
+                <span class="space"> </span>
+                <select name="Year" id="year">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="name">Notes</label>
+                <textarea name="notes" id="notes"></textarea>
+            </div>
+            <div class="row-button">
+                <div>
+                    <button class="btn">Cancel</button>
+                </div>
+                <div>
+                    <button class="btn" type="submit" id="sumbitButton">Sumbit</button>
+                    <button class="btn">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
